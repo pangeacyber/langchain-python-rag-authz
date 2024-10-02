@@ -1,0 +1,47 @@
+[project]
+name = "langchain-rag-authz"
+version = "1.0.0"
+description = """\
+An example CLI tool in Python that demonstrates how to integrate Pangea's\
+AuthZ service into a LangChain app to filter out RAG documents based on user\
+permissions.\
+"""
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "click>=8.1.7",
+    "faiss-cpu>=1.8.0.post1",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain>=0.3.0",
+    "pangea-sdk>=4.2.0",
+    "pydantic>=2.9.2",
+    "python-magic>=0.4.27",
+    "python-magic-bin>=0.4.14; platform_system == 'Windows'",
+    "unstructured[md]>=0.15.13",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "mypy>=1.11.2",
+    "ruff>=0.6.7",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    # ruff defaults
+    "E4",
+    "E7",
+    "E9",
+    "F",
+
+    "I",   # isort
+    "PTH", # flake8-use-pathlib
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "F403"]

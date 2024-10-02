@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>pangeacyber/.github:renovate-config"],
+  "packageRules": [
+    {
+      "description": "Don't offer Python updates.",
+      "matchDepNames": ["python"],
+      "enabled": false
+    }
+  ]
+}
