@@ -622,7 +622,7 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "mypy", specifier = ">=1.11.2" },
-    { name = "ruff", specifier = ">=0.6.7" },
+    { name = "ruff", specifier = ">=0.6.8" },
 ]
 
 [[package]]
