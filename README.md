@@ -25,14 +25,17 @@ The setup in AuthZ should look something like this:
 
 ### Roles & access
 
-#### engineering
+> [!TIP]
+> At this point you need to create 2 new Roles under the `Roles & Access` tab in the Pangea console named `engineering` and `finance`.
+
+#### Role: engineering
 
 | Resource type | Permissions (read) |
 | ------------- | ------------------ |
 | engineering   | ✔️                 |
 | finance       | ❌                 |
 
-#### finance
+#### Role: finance
 
 | Resource type | Permissions (read) |
 | ------------- | ------------------ |
