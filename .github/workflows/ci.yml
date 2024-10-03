@@ -87,4 +87,8 @@ jobs:
         if: ${{ matrix.os == 'macos-latest' }}
 
       - name: Print help text
-        run: uv run python -m langchain_rag_authz --help
+        uses: nick-fields/retry@v2.9.0
+        with:
+          timeout_seconds: 30
+          max_attempts: 10
+          command: uv run python -m langchain_rag_authz --help

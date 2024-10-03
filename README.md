@@ -115,7 +115,7 @@ But they cannot query finance information:
 ```
 $ python -m langchain_rag_authz --user alice "What is the top salary in the Engineering department?"
 
-I don't know.
+I don't know the answer to that question, and you may not be authorized to know the answer.
 ```
 
 And vice versa for "bob", who is in finance but not engineering.
