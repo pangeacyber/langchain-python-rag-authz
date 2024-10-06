@@ -509,7 +509,7 @@ wheels = [
 
 [[package]]
 name = "langchain"
-version = "0.3.1"
+version = "0.3.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -523,9 +523,9 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "tenacity" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a5/9e/4cb6a6ba04151a440e8ee527934df53b577181a7db6fce517faab110a1e0/langchain-0.3.1.tar.gz", hash = "sha256:54d6e3abda2ec056875a231a418a4130ba7576e629e899067e499bfc847b7586", size = 416751 }
+sdist = { url = "https://files.pythonhosted.org/packages/6a/32/26dd194a9e5c8a23d8ae4c4486c9e981550dd32e88ead04f303610b837c5/langchain-0.3.2.tar.gz", hash = "sha256:dc330e6eb10d81d23ba0305d18358702c73cc59e95c410eca6c6779aab4ddc9b", size = 416685 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/51/3f/462c134228fbb4f65be0a9db6a651e2f1d7226d003a712f1bac455a141b7/langchain-0.3.1-py3-none-any.whl", hash = "sha256:94e5ee7464d4366e4b158aa5704953c39701ea237b9ed4b200096d49e83bb3ae", size = 1005223 },
+    { url = "https://files.pythonhosted.org/packages/66/fd/ece1a6db8ccc12b08843b7eeeccf86b6203ef551ef7658872c5882f34126/langchain-0.3.2-py3-none-any.whl", hash = "sha256:cf005dcba132e46fb5e8d3dfaf7f8751bffd2d73e738c36be58f41edc7e3a4b8", size = 1005180 },
 ]
 
 [[package]]
@@ -552,7 +552,7 @@ wheels = [
 
 [[package]]
 name = "langchain-core"
-version = "0.3.6"
+version = "0.3.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jsonpatch" },
@@ -563,9 +563,9 @@ dependencies = [
     { name = "tenacity" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/08/0e/fa5137d090dff446fa9b1d617a76d91daa3aa2efa099aacd2fdc94494711/langchain_core-0.3.6.tar.gz", hash = "sha256:eb190494a5483f1965f693bb2085edb523370b20fc52dc294d3bd425773cd076", size = 320190 }
+sdist = { url = "https://files.pythonhosted.org/packages/33/0f/255010aa6e7037b6f41ba92233f7044550a680f3163d2ea5938f15649ab3/langchain_core-0.3.9.tar.gz", hash = "sha256:7a6ac988d24d0ddce5874b28f538cd95f69f502b7f50581de22aca0dc58199a8", size = 321686 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3e/0b/f189d87ccc7a5f388649bbf7e513ad774b14d66a4bb96278cb211347a17c/langchain_core-0.3.6-py3-none-any.whl", hash = "sha256:7bb3df0117bdc628b18b6c8748de72c6f537d745d47566053ce6650d5712281c", size = 399888 },
+    { url = "https://files.pythonhosted.org/packages/b3/7a/571f44803cb2bfb02504ee977704d4ad28ba4bc2d532250202c04e1da784/langchain_core-0.3.9-py3-none-any.whl", hash = "sha256:26efa048666c7de56d0ab311de2c0778b04cbb2ffe95bff76139118f13815d01", size = 401840 },
 ]
 
 [[package]]
@@ -609,7 +609,7 @@ dev = [
 requires-dist = [
     { name = "click", specifier = ">=8.1.7" },
     { name = "faiss-cpu", specifier = ">=1.8.0.post1" },
-    { name = "langchain", specifier = ">=0.3.1" },
+    { name = "langchain", specifier = ">=0.3.2" },
     { name = "langchain-community", specifier = ">=0.3.1" },
     { name = "langchain-openai", specifier = ">=0.2.1" },
     { name = "pangea-sdk", specifier = ">=4.3.0" },
