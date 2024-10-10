@@ -1,8 +1,8 @@
-# langchain-python-rag-authz
+# User-based Access Control with RAG for LangChain in Python
 
 An example CLI tool in Python that demonstrates integrating Pangea's
 [AuthZ][] service into a LangChain app to apply user-based authorization to 
-control access to files for a RAG workflo.
+control access to files for a RAG workflow.
 
 ## Prerequisites
 
