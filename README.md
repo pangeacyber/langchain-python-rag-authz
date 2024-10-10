@@ -1,8 +1,8 @@
-# langchain-python-rag-authz
+# User-based Access Control with RAG for LangChain in Python
 
-An example CLI tool in Python that demonstrates how to integrate Pangea's
-[AuthZ][] service into a LangChain app to filter out RAG documents based on user
-permissions.
+An example CLI tool in Python that demonstrates integrating Pangea's
+[AuthZ][] service into a LangChain app to apply user-based authorization to 
+control access to files for a RAG workflow.
 
 ## Prerequisites
 
@@ -11,50 +11,65 @@ permissions.
 - A [Pangea account][Pangea signup] with AuthZ enabled.
 - An [OpenAI API key][OpenAI API keys].
 - libmagic
-  - macOS: `brew install libmagic`
-  - Windows: included via the python-magic-bin package
+
+## Setup
+
+### Pangea AuthZ
 
 The setup in AuthZ should look something like this:
 
-### Resource types
+#### Resource types
 
 | Name        | Permissions |
 | ----------- | ----------- |
 | engineering | read        |
 | finance     | read        |
 
-### Roles & access
+#### Roles & access
 
 > [!TIP]
 > At this point you need to create 2 new Roles under the `Roles & Access` tab in the Pangea console named `engineering` and `finance`.
 
-#### Role: engineering
+##### Role: engineering
 
 | Resource type | Permissions (read) |
 | ------------- | ------------------ |
 | engineering   | ✔️                 |
 | finance       | ❌                 |
 
-#### Role: finance
+##### Role: finance
 
 | Resource type | Permissions (read) |
 | ------------- | ------------------ |
 | engineering   | ❌                 |
 | finance       | ✔️                 |
 
-### Assigned roles & relations
+#### Assigned roles & relations
 
 | Subject type | Subject ID | Role/Relation |
 | ------------ | ---------- | ------------- |
 | user         | alice      | engineering   |
 | user         | bob        | finance       |
 
-## Setup
+
+### Configure Code
 
 ```shell
 git clone https://github.com/pangeacyber/langchain-python-rag-authz.git
 cd langchain-python-rag-authz
 ```
+
+#### Install libmagic
+
+This is included in Windows via the python-magic-bin package
+
+On macOS, you can install via this shell command:
+
+```shell
+brew install libmagic
+```
+
+#### Set up Project
 
 If using pip:
 
@@ -74,7 +89,7 @@ source .venv/bin/activate
 The sample can then be executed with:
 
 ```shell
-python -m langchain_rag_authz
+python -m langchain_rag_authz --user alice "How much does John Doe make?"
 ```
 
 ## Usage
