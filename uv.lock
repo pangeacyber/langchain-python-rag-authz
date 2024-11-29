@@ -686,7 +686,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.10.2" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "platform_system == 'Windows'", specifier = ">=0.4.14" },
-    { name = "unstructured", extras = ["md"], specifier = ">=0.16.7" },
+    { name = "unstructured", extras = ["md"], specifier = ">=0.16.8" },
 ]
 
 [package.metadata.requires-dev]
