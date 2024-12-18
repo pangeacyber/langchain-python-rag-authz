@@ -683,7 +683,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.1.7" },
     { name = "faiss-cpu", specifier = ">=1.9.0.post1" },
     { name = "langchain", specifier = ">=0.3.12" },
-    { name = "langchain-community", specifier = ">=0.3.11" },
+    { name = "langchain-community", specifier = ">=0.3.12" },
     { name = "langchain-openai", specifier = ">=0.2.12" },
     { name = "pangea-sdk", specifier = ">=5.1.0" },
     { name = "pydantic", specifier = ">=2.10.3" },
