@@ -684,7 +684,7 @@ requires-dist = [
     { name = "faiss-cpu", specifier = ">=1.9.0.post1" },
     { name = "langchain", specifier = ">=0.3.13" },
     { name = "langchain-community", specifier = ">=0.3.13" },
-    { name = "langchain-openai", specifier = ">=0.2.13" },
+    { name = "langchain-openai", specifier = ">=0.2.14" },
     { name = "pangea-sdk", specifier = ">=5.2.1" },
     { name = "pydantic", specifier = ">=2.10.4" },
     { name = "python-magic", specifier = ">=0.4.27" },
