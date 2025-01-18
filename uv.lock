@@ -681,7 +681,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.14" },
     { name = "langchain-community", specifier = ">=0.3.14" },
     { name = "langchain-openai", specifier = ">=0.3.0" },
-    { name = "pangea-sdk", specifier = ">=5.2.1" },
+    { name = "pangea-sdk", specifier = ">=5.3.0" },
     { name = "pydantic", specifier = ">=2.10.5" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
@@ -994,7 +994,7 @@ wheels = [
 
 [[package]]
 name = "pangea-sdk"
-version = "5.2.1"
+version = "5.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1007,9 +1007,9 @@ dependencies = [
     { name = "requests-toolbelt" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/00/bc/7131fcb7055eaa04ee06913e2f32e045fd56f1b150b4d24eb61b9ceb6b49/pangea_sdk-5.2.1.tar.gz", hash = "sha256:289240e2c729683652e371099becb7f73dc1eb2ec28a20a844d2600913634f90", size = 123804 }
+sdist = { url = "https://files.pythonhosted.org/packages/b9/73/afc5bcb4ec5ad72e2cf7b73777dd62d876d7d334291c1ced06fa7b715deb/pangea_sdk-5.3.0.tar.gz", hash = "sha256:3bc5df00621d8f8f87e85f809157e41ff75b87ead693a1a9b0b533f54da83fc8", size = 123569 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/d4/dea312ce38556af38a56d690a0b329f032c1863e641b4ce59cdfb2529ad4/pangea_sdk-5.2.1-py3-none-any.whl", hash = "sha256:511575c410677f66df0c8fd8f65653450c668bd1c47fe68cbb995106975fef38", size = 148713 },
+    { url = "https://files.pythonhosted.org/packages/c6/4e/c7c879389720713925721a0be892ffacc550469f9a558bf54acac2638b14/pangea_sdk-5.3.0-py3-none-any.whl", hash = "sha256:456c40c03eeaedc258a71c1ed31e01b573e598f42fbf0122fb03957d85f01b68", size = 150400 },
 ]
 
 [[package]]
