@@ -25,7 +25,7 @@ dependencies = [
 [tool.uv]
 dev-dependencies = [
     "mypy>=1.14.1",
-    "ruff>=0.9.1",
+    "ruff>=0.9.2",
 ]
 
 [tool.ruff]
