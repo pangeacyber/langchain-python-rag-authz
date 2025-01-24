@@ -12,7 +12,7 @@ requires-python = ">=3.12"
 dependencies = [
     "click>=8.1.8",
     "faiss-cpu>=1.9.0.post1",
-    "langchain-community>=0.3.14",
+    "langchain-community>=0.3.15",
     "langchain-openai>=0.3.1",
     "langchain>=0.3.15",
     "pangea-sdk>=5.3.0",
