@@ -691,7 +691,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.10.6" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
-    { name = "unstructured", extras = ["md"], specifier = "==0.16.12" },
+    { name = "unstructured", extras = ["md"], specifier = "==0.16.16" },
 ]
 
 [package.metadata.requires-dev]
@@ -872,15 +872,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782", size = 4433 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2a/e2/5d3f6ada4297caebe1a2add3b126fe800c96f56dbe5d1988a2cbe0b267aa/mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d", size = 4695 },
-]
-
-[[package]]
-name = "ndjson"
-version = "0.3.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b4/d5/209b6ca94566f9c94c0ec41cee1681c0a3b92a306a84a9b0fcd662088dc3/ndjson-0.3.1.tar.gz", hash = "sha256:bf9746cb6bb1cb53d172cda7f154c07c786d665ff28341e4e689b796b229e5d6", size = 6448 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/c9/04ba0056011ba96a58163ebfd666d8385300bd12da1afe661a5a147758d7/ndjson-0.3.1-py2.py3-none-any.whl", hash = "sha256:839c22275e6baa3040077b83c005ac24199b94973309a8a1809be962c753a410", size = 5305 },
 ]
 
 [[package]]
@@ -1495,7 +1486,7 @@ wheels = [
 
 [[package]]
 name = "unstructured"
-version = "0.16.12"
+version = "0.16.16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
@@ -1507,7 +1498,6 @@ dependencies = [
     { name = "html5lib" },
     { name = "langdetect" },
     { name = "lxml" },
-    { name = "ndjson" },
     { name = "nltk" },
     { name = "numpy" },
     { name = "psutil" },
@@ -1521,9 +1511,9 @@ dependencies = [
     { name = "unstructured-client" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3d/c7/f6c0ed5a51d9cd1e322aa669920c0ef4828f178313d7af8222c625fe9871/unstructured-0.16.12.tar.gz", hash = "sha256:c3133731c6edb9c2f474e62cb2b560cd0a8d578c4532ec14d8c0941e401770b0", size = 1664282 }
+sdist = { url = "https://files.pythonhosted.org/packages/ea/18/3b89c00617ef18e11f90eae9da8f6d39db8ce6c5721c06badca1d0ec4501/unstructured-0.16.16.tar.gz", hash = "sha256:0147dc3b53f7f0888ed608c9c454b5fca1a41925a09b7884c121239a60c9d8fa", size = 1669687 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c6/ca/888eaf18d6b7a51f4ef144a17460f8d05c11336fec5b40823006110c6fdb/unstructured-0.16.12-py3-none-any.whl", hash = "sha256:bcac29ac1b38fba4228c5a1a7721d1aa7c48220f7c1dd43b563645c56e978c49", size = 1749492 },
+    { url = "https://files.pythonhosted.org/packages/d5/5e/585cd058ffc2a6f72eeaa6ac5a8e57aa90c8ad11df40b5ea4b7a95478011/unstructured-0.16.16-py3-none-any.whl", hash = "sha256:832cacd62a3258b0d6bd0fbedd1233d75f7855ef8cf062b8f02466a0d0396332", size = 1755196 },
 ]
 
 [package.optional-dependencies]
