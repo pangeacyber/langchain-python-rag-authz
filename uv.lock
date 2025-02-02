@@ -684,7 +684,7 @@ dev = [
 requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
     { name = "faiss-cpu", specifier = ">=1.9.0.post1" },
-    { name = "langchain", specifier = ">=0.3.16" },
+    { name = "langchain", specifier = ">=0.3.17" },
     { name = "langchain-community", specifier = ">=0.3.16" },
     { name = "langchain-openai", specifier = ">=0.3.2" },
     { name = "pangea-sdk", specifier = ">=5.4.0" },
