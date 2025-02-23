@@ -686,7 +686,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.10.6" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
-    { name = "unstructured", extras = ["md"], specifier = "==0.16.22" },
+    { name = "unstructured", extras = ["md"], specifier = "==0.16.23" },
 ]
 
 [package.metadata.requires-dev]
@@ -1481,7 +1481,7 @@ wheels = [
 
 [[package]]
 name = "unstructured"
-version = "0.16.22"
+version = "0.16.23"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
@@ -1506,9 +1506,9 @@ dependencies = [
     { name = "unstructured-client" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0d/12/f39cc0f55f8006c02f4867269e6683570d019bf89629320fe71b9121577f/unstructured-0.16.22.tar.gz", hash = "sha256:4fc6809980f5bcac2207d79312cef9f14f9bc7ff06ca27d464f087f0b01963b0", size = 1676370 }
+sdist = { url = "https://files.pythonhosted.org/packages/76/fc/37132675761b5c2a12404cbce821129d036cef0aaf2114688bdb0f1ce511/unstructured-0.16.23.tar.gz", hash = "sha256:f0e18a504b12b21743695da2daa0bd70b07469a43af2f2aa04f10d38c1f11a58", size = 1676720 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/04/5b/273133a6f5eeb9d4605b0d6aaad48cc380b0bac9669cba5ebb94ae40b0bc/unstructured-0.16.22-py3-none-any.whl", hash = "sha256:33ae7adc3b59b152bfbe5717ffdded5a19d66dc8cf78a2e55d86bef0d0d4899e", size = 1761833 },
+    { url = "https://files.pythonhosted.org/packages/0c/15/533c69ab74d4b3be90acbe42a135ec24798e776178253d572c27f37022a5/unstructured-0.16.23-py3-none-any.whl", hash = "sha256:edc87b84acdc52e7476d09b38fcc242842214750ba413096598a326af5550c28", size = 1762102 },
 ]
 
 [package.optional-dependencies]
