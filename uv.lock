@@ -412,6 +412,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/24/8a/e2d52d4111d3ef48e0a8b2324e80b600f6c5339dae9827744b94325a0b6a/google_crc32c-1.7.0-cp313-cp313-macosx_12_0_x86_64.whl", hash = "sha256:6a40522958040051c755a173eb98c05ad4d64a6dd898888c3e5ccca2d1cbdcdc", size = 30149 },
     { url = "https://files.pythonhosted.org/packages/da/60/8cd1605391da56c55db67ef64660e72b89787755a271ebe04f9418320b19/google_crc32c-1.7.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f714fe5cdf5007d7064c57cf7471a99e0cbafda24ddfa829117fc3baafa424f7", size = 32972 },
     { url = "https://files.pythonhosted.org/packages/3d/65/065ffe1bb324709e7704205261b429588ed17bbde8b7940eb12b140a6082/google_crc32c-1.7.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f04e58dbe1bf0c9398e603a9be5aaa09e0ba7eb022a3293195d8749459a01069", size = 32616 },
+    { url = "https://files.pythonhosted.org/packages/16/b8/95e6a189f5764abd643e3df5ab06e291d379f26ff77ea97bbcb12ac9207b/google_crc32c-1.7.0-cp313-cp313-win_amd64.whl", hash = "sha256:e545b51ddf97f604d30114f7c23eecaf4c06cd6c023ff1ae0b80dcd99af32833", size = 33496 },
     { url = "https://files.pythonhosted.org/packages/1b/30/51b10f995be9bd09551d050117c571f9749297717fcc2e7946e242eb4830/google_crc32c-1.7.0-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:364067b063664dd8d1fec75a3fe85edf05c46f688365269beccaf42ef5dfe889", size = 33080 },
     { url = "https://files.pythonhosted.org/packages/4d/ec/a7ca773559c7ab6919ac0255d84c74571c8cecf0e8891036705f6861c04d/google_crc32c-1.7.0-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e1b0d6044799f6ac51d1cc2decb997280a83c448b3bef517a54b57a3b71921c0", size = 32708 },
 ]
@@ -625,7 +626,7 @@ wheels = [
 
 [[package]]
 name = "langchain-core"
-version = "0.3.47"
+version = "0.3.49"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jsonpatch" },
@@ -636,23 +637,23 @@ dependencies = [
     { name = "tenacity" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/24/ae/f7764ad1c36aeba561a9cf9eb6774613fdff611f9c91967bb447092baf64/langchain_core-0.3.47.tar.gz", hash = "sha256:975a3daabf8e8d583749b3c553cc412d0527d935dfe820317431b475fa0c585a", size = 531793 }
+sdist = { url = "https://files.pythonhosted.org/packages/73/bd/db939ba59f28a4ac73fa64281e21f5011ce61fd694c03b88946a554d8442/langchain_core-0.3.49.tar.gz", hash = "sha256:d9dbff9bac0021463a986355c13864d6a68c41f8559dbbd399a68e1ebd9b04b9", size = 536469 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/57/1e/a65339d128f2e957440db21746f66aaf103d34042fcd130c1801da00492d/langchain_core-0.3.47-py3-none-any.whl", hash = "sha256:ef7c78202e6fd9df79fe8128c828d08a95d3878cf4aec282580baf358a3f2ec5", size = 417108 },
+    { url = "https://files.pythonhosted.org/packages/dd/35/27164f5f23517be8639b518130e6235293dae52c41988790e0b50dd7ba11/langchain_core-0.3.49-py3-none-any.whl", hash = "sha256:893ee42c9af13bf2a2d8c2ec15ba00a5c73cccde21a2bd005234ee0e78a2bdf8", size = 420102 },
 ]
 
 [[package]]
 name = "langchain-openai"
-version = "0.3.9"
+version = "0.3.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "langchain-core" },
     { name = "openai" },
     { name = "tiktoken" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/df/3e/c8e532abe6f3443b3707b3fb40ee2fe03aa1659427ae0256372bf69d05b3/langchain_openai-0.3.9.tar.gz", hash = "sha256:a2897d15765a435eff3fed7043235c25ec1e192e6c45a81e9e4fae2951335fb3", size = 267983 }
+sdist = { url = "https://files.pythonhosted.org/packages/77/d6/dc77062c0b7c09f18d10a94a33920a69b6bee13079905d638bfdb7300e97/langchain_openai-0.3.11.tar.gz", hash = "sha256:4de846b2770c2b15bee4ec8034af064bfecb01fa86d4c5ff3f427ee337f0e98c", size = 267476 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/8c/1b1328863f3e123bc5122853ba7d8d8e79aea078f8d597a33601b7224b47/langchain_openai-0.3.9-py3-none-any.whl", hash = "sha256:1ad95c09a620910c39a8eb826eb146bd96bfbc55e4fca78b1e28ffd5e4f5b261", size = 60852 },
+    { url = "https://files.pythonhosted.org/packages/95/9f/08696493db3c3fa238c13eee9db6386dbcebe0fc164c8ce6a20afdde53a7/langchain_openai-0.3.11-py3-none-any.whl", hash = "sha256:95cf602322d43d13cb0fd05cba9bc4cffd7024b10b985d38f599fcc502d2d4d0", size = 60147 },
 ]
 
 [[package]]
@@ -684,7 +685,7 @@ requires-dist = [
     { name = "faiss-cpu", specifier = ">=1.10.0" },
     { name = "langchain", specifier = ">=0.3.21" },
     { name = "langchain-community", specifier = ">=0.3.20" },
-    { name = "langchain-openai", specifier = ">=0.3.9" },
+    { name = "langchain-openai", specifier = ">=0.3.10" },
     { name = "pangea-sdk", specifier = ">=5.5.1" },
     { name = "pydantic", specifier = ">=2.10.6" },
     { name = "python-magic", specifier = ">=0.4.27" },
