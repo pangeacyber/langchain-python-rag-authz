@@ -16,7 +16,7 @@ dependencies = [
     "langchain-openai>=0.3.12",
     "langchain>=0.3.22",
     "pangea-sdk>=5.5.1",
-    "pydantic>=2.11.1",
+    "pydantic>=2.11.2",
     "python-magic>=0.4.27",
     "python-magic-bin>=0.4.14; platform_system == 'Windows'",
     "unstructured[md]==0.17.2",
