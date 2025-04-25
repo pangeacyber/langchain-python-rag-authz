@@ -2,7 +2,8 @@ version = 1
 revision = 2
 requires-python = ">=3.12"
 resolution-markers = [
-    "python_full_version >= '3.12.4'",
+    "python_full_version >= '3.13'",
+    "python_full_version >= '3.12.4' and python_full_version < '3.13'",
     "python_full_version < '3.12.4'",
 ]
 
@@ -631,7 +632,7 @@ wheels = [
 
 [[package]]
 name = "langchain-community"
-version = "0.3.21"
+version = "0.3.22"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -647,9 +648,9 @@ dependencies = [
     { name = "sqlalchemy" },
     { name = "tenacity" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/be/5288a737069570741d46390028b4e8518354329345294ca89fcb2d44a9c1/langchain_community-0.3.21.tar.gz", hash = "sha256:b87b9992cbeea7553ed93e3d39faf9893a8690318485f7dc861751c7878729f7", size = 33226597, upload_time = "2025-04-04T14:19:42.545Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/04/a9/32b4fb08b82b264cba1096d7daa49de808e117046ebf9df4c382e23791db/langchain_community-0.3.22.tar.gz", hash = "sha256:36284687a9f64bc7820c0140beb3b96393f6c74c0b7ad8ba04ac35d673fe0988", size = 33230274, upload_time = "2025-04-22T15:38:51.919Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bb/72/4046a132a180b569265bc8aa7ecd6f958f6c11085bdf68c7e1bbe52f1907/langchain_community-0.3.21-py3-none-any.whl", hash = "sha256:8cb9bbb7ef15e5eea776193528dd0e0e1299047146d0c78b6c696ae2dc62e81f", size = 2526687, upload_time = "2025-04-04T14:19:39.586Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/bb/ebd0f33408f95ebfdb48e2a551c50506c46efc57b836b57c792ccd14290d/langchain_community-0.3.22-py3-none-any.whl", hash = "sha256:02ecdc669408d587b9dda78462dbbe8c27168edd26bb205630d0bc753e7cce6b", size = 2529327, upload_time = "2025-04-22T15:38:49.864Z" },
 ]
 
 [[package]]
@@ -712,7 +713,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.1.8" },
     { name = "faiss-cpu", specifier = ">=1.10.0" },
     { name = "langchain", specifier = ">=0.3.24" },
-    { name = "langchain-community", specifier = ">=0.3.21" },
+    { name = "langchain-community", specifier = ">=0.3.22" },
     { name = "langchain-openai", specifier = ">=0.3.14" },
     { name = "pangea-sdk", specifier = ">=6.0.0" },
     { name = "pydantic", specifier = ">=2.11.3" },
