@@ -715,7 +715,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.24" },
     { name = "langchain-community", specifier = ">=0.3.22" },
     { name = "langchain-openai", specifier = ">=0.3.14" },
-    { name = "pangea-sdk", specifier = ">=6.0.0" },
+    { name = "pangea-sdk", specifier = ">=6.1.0" },
     { name = "pydantic", specifier = ">=2.11.3" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
