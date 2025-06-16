@@ -720,7 +720,7 @@ requires-dist = [
     { name = "faiss-cpu", specifier = ">=1.11.0" },
     { name = "langchain", specifier = ">=0.3.25" },
     { name = "langchain-community", specifier = ">=0.3.25" },
-    { name = "langchain-openai", specifier = ">=0.3.22" },
+    { name = "langchain-openai", specifier = ">=0.3.23" },
     { name = "pangea-sdk", specifier = ">=6.1.1" },
     { name = "pydantic", specifier = ">=2.11.6" },
     { name = "python-magic", specifier = ">=0.4.27" },
