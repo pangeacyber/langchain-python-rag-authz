@@ -185,15 +185,6 @@ wheels = [
 ]
 
 [[package]]
-name = "chardet"
-version = "5.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz", hash = "sha256:1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7", size = 2069618, upload-time = "2023-08-01T19:23:02.662Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl", hash = "sha256:e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970", size = 199385, upload-time = "2023-08-01T19:23:00.661Z" },
-]
-
-[[package]]
 name = "charset-normalizer"
 version = "3.4.2"
 source = { registry = "https://pypi.org/simple" }
@@ -730,7 +721,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
-    { name = "unstructured", extras = ["md"], specifier = "==0.18.9" },
+    { name = "unstructured", extras = ["md"], specifier = "==0.18.11" },
 ]
 
 [package.metadata.requires-dev]
@@ -1621,12 +1612,12 @@ wheels = [
 
 [[package]]
 name = "unstructured"
-version = "0.18.9"
+version = "0.18.11"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
     { name = "beautifulsoup4" },
-    { name = "chardet" },
+    { name = "charset-normalizer" },
     { name = "dataclasses-json" },
     { name = "emoji" },
     { name = "filetype" },
@@ -1646,9 +1637,9 @@ dependencies = [
     { name = "unstructured-client" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ea/3d/7ec76008918d204322588b24cd825267671c810e3ec73b7014cf06a11226/unstructured-0.18.9.tar.gz", hash = "sha256:1e0df6f01248a05d31dc6b23ca7c99d17fd0e123438a0e0b6c95d4626b133871", size = 1689038, upload-time = "2025-07-16T22:34:43.841Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/be/7b/991fc1d9bf3f5a08f5c2bdaeb6523cb882171fa9bb20bd087818a50fb1dd/unstructured-0.18.11.tar.gz", hash = "sha256:cf177d2a212a8bcd3a5a6750d8400c079764d30dabdb6605e7ba0a65679e00a0", size = 1689741, upload-time = "2025-07-23T13:34:16.688Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a9/62/7d3b38799aeba19f6c6900564077c76514a627da48197cec0e820f039d17/unstructured-0.18.9-py3-none-any.whl", hash = "sha256:15fd47a491546ba8e6b70d990c09ca2624170009d67fa6a6421c8f5d5888aef3", size = 1776429, upload-time = "2025-07-16T22:34:41.977Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/73/7b15fe1f31e8904e2df8a4dbfbb6364ee5567a2fc0d5fa69856d684f5751/unstructured-0.18.11-py3-none-any.whl", hash = "sha256:85aec87032177b826ec278e57e3f74ef3a2aa7e887ab137875e572293cf9659b", size = 1777194, upload-time = "2025-07-23T13:34:14.632Z" },
 ]
 
 [package.optional-dependencies]
