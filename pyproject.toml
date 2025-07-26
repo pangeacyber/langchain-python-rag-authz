@@ -19,7 +19,7 @@ dependencies = [
     "pydantic>=2.11.7",
     "python-magic>=0.4.27",
     "python-magic-bin>=0.4.14; platform_system == 'Windows'",
-    "unstructured[md]==0.18.9",
+    "unstructured[md]==0.18.11",
 ]
 
 [tool.uv]
