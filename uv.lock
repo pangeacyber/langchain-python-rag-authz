@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -717,7 +717,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.27" },
     { name = "langchain-community", specifier = ">=0.3.27" },
     { name = "langchain-openai", specifier = ">=0.3.28" },
-    { name = "pangea-sdk", specifier = ">=6.3.0" },
+    { name = "pangea-sdk", specifier = ">=6.4.0" },
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
@@ -1070,7 +1070,7 @@ wheels = [
 
 [[package]]
 name = "pangea-sdk"
-version = "6.3.0"
+version = "6.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1084,9 +1084,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/86/f3/af89153f5262d88225e989c4135e1d765a403582e88103d2f41c0fcea965/pangea_sdk-6.3.0.tar.gz", hash = "sha256:b3a55c153a8590c7b0564e03221e1ee9e40f5d4f5a37e5c00fe83becea346279", size = 134067, upload-time = "2025-07-17T17:26:02.533Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/68/dcba1710ecab4e9dadf77050f996027093a225c1129d32b10bd622ebf509/pangea_sdk-6.4.0.tar.gz", hash = "sha256:af922406360bb80bca7127a5eb073b769000ccefffa8e33571c96ba298bd5e13", size = 134353, upload-time = "2025-07-28T17:26:37.807Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/62/6d/988a866a9764525770f5e73201996e811c328bae0c6c0a45ddc131cc58e4/pangea_sdk-6.3.0-py3-none-any.whl", hash = "sha256:14c0e752c4d83c442f9d80c587da70af5190a9a3e91ceb3db93e6472bcbf037f", size = 164068, upload-time = "2025-07-17T17:26:01.444Z" },
+    { url = "https://files.pythonhosted.org/packages/7f/f0/c229468419a831418e97a2a05062e2c5194458192a37d016d0712b2ac681/pangea_sdk-6.4.0-py3-none-any.whl", hash = "sha256:5c4773696235151ecdc5b357816089be2fadf47f28040157a108df44e8b50d1d", size = 164262, upload-time = "2025-07-28T17:26:36.681Z" },
 ]
 
 [[package]]
