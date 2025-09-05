@@ -740,7 +740,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=0.3.27" },
     { name = "langchain-community", specifier = ">=0.3.29" },
     { name = "langchain-openai", specifier = ">=0.3.32" },
-    { name = "pangea-sdk", specifier = ">=6.5.0" },
+    { name = "pangea-sdk", specifier = ">=6.6.0" },
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'", specifier = ">=0.4.14" },
@@ -1145,7 +1145,7 @@ wheels = [
 
 [[package]]
 name = "pangea-sdk"
-version = "6.5.0"
+version = "6.6.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1159,9 +1159,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/29/4c1736decb86158fbcdede34e7ffe3798eb8c2135207f481ed2ba8cb8c2f/pangea_sdk-6.5.0.tar.gz", hash = "sha256:0a12ce45fe243a56ef2dca56f00d5d163f8df6da149bf949610dce41699fed7e", size = 135552, upload-time = "2025-08-25T15:21:29.843Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9a/1a/7315191b00399e599f73ecf3897b8503a8bf7bba80f36ee7ef620c85951e/pangea_sdk-6.6.0.tar.gz", hash = "sha256:17f4ef0f2c1441020cbbc8fcdd831288497fec8f4d817872364aae576fd9438c", size = 136802, upload-time = "2025-09-02T20:36:56.205Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/33/5d/75235b916ba9404758ac266b2f8fe3d0f8edc64773f6e43b25a117a25812/pangea_sdk-6.5.0-py3-none-any.whl", hash = "sha256:01955607b21a08166ccd732dae204f4df3751913dfcb5d63d5722bbf26f343fd", size = 167073, upload-time = "2025-08-25T15:21:28.656Z" },
+    { url = "https://files.pythonhosted.org/packages/c3/85/abe738cfc4ec36104b5c1c16430efaaff920b9cf1bf02fd45a6308007b83/pangea_sdk-6.6.0-py3-none-any.whl", hash = "sha256:7dd4180e89d766ef6d91cf4ecec8408f49dab899eddea326c7b85558a0dc6959", size = 168369, upload-time = "2025-09-02T20:36:54.743Z" },
 ]
 
 [[package]]
@@ -1666,11 +1666,11 @@ wheels = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.14.1"
+version = "4.15.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/98/5a/da40306b885cc8c09109dc2e1abd358d5684b1425678151cdaed4731c822/typing_extensions-4.14.1.tar.gz", hash = "sha256:38b39f4aeeab64884ce9f74c94263ef78f3c22467c8724005483154c26648d36", size = 107673, upload-time = "2025-07-04T13:28:34.16Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466", size = 109391, upload-time = "2025-08-25T13:49:26.313Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b5/00/d631e67a838026495268c2f6884f3711a15a9a2a96cd244fdaea53b823fb/typing_extensions-4.14.1-py3-none-any.whl", hash = "sha256:d1e1e3b58374dc93031d6eda2420a48ea44a36c2b4766a4fdeb3710755731d76", size = 43906, upload-time = "2025-07-04T13:28:32.743Z" },
+    { url = "https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548", size = 44614, upload-time = "2025-08-25T13:49:24.86Z" },
 ]
 
 [[package]]
