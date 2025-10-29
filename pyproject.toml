@@ -10,22 +10,22 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "click>=8.3.0",
-    "faiss-cpu>=1.12.0",
-    "langchain-community>=0.3.31",
-    "langchain-openai>=0.3.35",
-    "langchain>=0.3.27",
-    "pangea-sdk>=6.8.0",
-    "pydantic>=2.12.3",
-    "python-magic>=0.4.27",
-    "python-magic-bin>=0.4.14; platform_system == 'Windows'",
+    "click==8.3.0",
+    "faiss-cpu==1.12.0",
+    "langchain-community==0.3.31",
+    "langchain-openai==0.3.35",
+    "langchain==0.3.27",
+    "pangea-sdk==6.8.0",
+    "pydantic==2.12.3",
+    "python-magic==0.4.27",
+    "python-magic-bin==0.4.14; platform_system == 'Windows'",
     "unstructured[md]==0.18.15",
 ]
 
 [tool.uv]
 dev-dependencies = [
-    "mypy>=1.18.2",
-    "ruff>=0.14.2",
+    "mypy==1.18.2",
+    "ruff==0.14.2",
 ]
 
 [tool.ruff]
